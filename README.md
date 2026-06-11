@@ -3,10 +3,28 @@
 This project focuses on the data analysis of Walmart sales data. It involves data processing, data cleaning, and exploratory data analysis (EDA) using Python and SQL. Advanced SQL queries were used to extract meaningful business insights that support data-driven decision making in retail operations.
 </p>
 <hr></hr>
+
 <h2>Project Step</h2>
-<h3>1.Set Up the Environment</h3>
+
+<h3>1. Set Up the Environment</h3>
 <ul>
-<li><h5>Tool used:</h5>VS Code,Python,SQL(PostgreSQL)</li>
-<li><h5>Goal:</h5>Create a structured workspace within VS Code for efficient development and analysis.</li>
+<li><strong>Tool used:</strong>VS Code,Python,SQL(PostgreSQL)</li>
+<li><strong>Goal:</strong>Create a structured workspace within VS Code for efficient development and analysis.</li>
 </ul>
 
+<h3>2. Set up Kaggle API </h3>
+<ul>
+  <li><strong>Kaggle API:</strong> Used to programmatically download datasets using authentication tokens.</li>
+
+  <li>
+    <strong>Authentication Steps:</strong>
+    <ul>
+      <li>Generate an API token from Kaggle account settings</li>
+      <li>Use Kaggle CLI for authentication</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Note:</strong> Refer to official Kaggle documentation if needed for setup guidance.
+  </li>
+</ul>
