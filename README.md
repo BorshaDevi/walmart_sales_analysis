@@ -28,3 +28,12 @@ This project focuses on the data analysis of Walmart sales data. It involves dat
     <strong>Note:</strong> Refer to official Kaggle documentation if needed for setup guidance.
   </li>
 </ul>
+
+
+
+<h3>Download Walmart Sales Data</h3>
+<ul>
+<li><strong>Data Source: </strong>Download the dataset using the Kaggle API or directly from Kaggle.</li>
+<li><strong>Dataset Link:<a href='https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets'>Walmart Sales Dataset</a></strong></li>
+<li><strong>Storage:</strong>Save the extracted dataset inside the <code>data/</code> folder for easy access and analysis.</li>
+</ul>
