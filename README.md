@@ -64,23 +64,27 @@ pip install pandas sqlalchemy psycopg2
 <li>Before installing any libraries, make sure the virtual environment (<code>p_my_env</code>) is activated.</li> 
 <li>In most cases, the environment activates automatically when selected in your IDE. If not, activate it manually.</li> <li>All required libraries should be installed inside the virtual environment.</li> 
 </ul>
-1.Go to Scripts folder .
-2. open folder 
-3.see activate file 
-4. Right click on the file and Copy Relative Path
-5. paste in the terminal.
+<ul>
+<li>1.Go to Scripts folder .</li>
+<li>2. open folder </li>
+<li>3.see activate file </li>
+<li>4. Right click on the file and Copy Relative Path </li>
+<li>5. paste in the terminal. </li>
+</ul>
+<ul>
 <strong>
 Note:
 </strong>
-1.If you use PowerShell , then use like this:
+
+<li>1.If you use PowerShell , then use like this:</li>
 
 ```bash
 p_my_env\Scripts\activate
 
 ```
-2. If you use bash, then use like this:
+<li>2. If you use bash, then use like this:</li>
 
 ```bash
 source p_my_env/Scripts/activate
 ```
-
+</ul>
