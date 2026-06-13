@@ -132,4 +132,11 @@ Walmart_sales_Data_Analysis/
 └── walmart.sql
     → SQL queries for business insights
 
-```    
+```   
+
+<h2>Future Enhancements</h2>
+Possible extensions to this project:
+     <ul>
+        <li>Integration with a dashboard tool (e.g., Power BI) for interactive visualization.</li>
+        <li>Additional data sources to enhance analysis depth.</li>
+     </ul>
