@@ -103,3 +103,30 @@ source p_my_env/Scripts/activate
 </li>
 <li><strong>Kaggle API Key </strong>(for data downloading)</li>
 </ul>
+
+<h2>Getting Started</h2>
+
+<h2>Project Structure</h2>
+
+Walmart_sales_Data_Analysis/
+│
+├── project.ipynb
+│   → Data cleaning + Exploratory Data Analysis (EDA)
+│
+├── README.md
+│   → Project overview, tools used, setup instructions
+│
+├── requirements.txt
+│   → Python dependencies
+│
+├── Walmart_clean_data/
+│   → Processed / cleaned dataset after preprocessing
+│
+├── walmart-10k-sales-datasets.zip
+│   → Compressed dataset backup
+│
+├── Walmart.csv
+│   → Raw dataset
+│
+└── walmart.sql
+    → SQL queries for business insights
