@@ -57,7 +57,7 @@ Activate the virtual environment and install the necessary Python libraries: </l
  </ul>
 
 ```bash
-pip install pandas sqlalchemy psycopg2
+pip install pandas sqlalchemy psycopg2 ipykernel
 ```
 <strong>Note:</strong> 
 <ul> 
