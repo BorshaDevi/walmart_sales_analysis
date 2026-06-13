@@ -88,3 +88,18 @@ p_my_env\Scripts\activate
 source p_my_env/Scripts/activate
 ```
 </ul>
+
+
+<hr></hr>
+
+<h2>Requirements</h2>
+<ul>
+<li><strong>Python Python 3.10+</strong></li>
+<li><strong>SQL Databases: </strong>PostgreSQL</li>
+<li><strong>Python Libraries : </strong>
+     <ul>
+        <li>pandas, sqlalchemy, psycopg2</li>
+     </ul>
+</li>
+<li><strong>Kaggle API Key </strong>(for data downloading)</li>
+</ul>
