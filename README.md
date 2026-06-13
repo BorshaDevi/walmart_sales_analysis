@@ -29,8 +29,6 @@ This project focuses on the data analysis of Walmart sales data. It involves dat
   </li>
 </ul>
 
-
-
 <h3>3. Download Walmart Sales Data</h3>
 <ul>
 <li><strong>Data Source: </strong>Download the dataset using the Kaggle API or directly from Kaggle.</li>
@@ -38,17 +36,51 @@ This project focuses on the data analysis of Walmart sales data. It involves dat
 <li><strong>Storage:</strong>Save the extracted dataset inside the <code>data/</code> folder for easy access and analysis.</li>
 </ul>
 
-<h4>Install Required Libraries</h4>
+
+<h3>4. Install Required Environment & Libraries </h3>
+
 <ul>
-<li><strong>Libraries:</strong> Install necessary Python libraries:
+<li>
+<strong>Create a Python Virtual Environment:</strong>
+First, create a Python virtual environment:
 </li>
 </ul>
 
 ```bash
-pip install pandas sqlalchemy psycopg2
+python -m venv p_my_env(given a name Like:p_my_env)
 ```
 
-<ul>
-<li><strong>Install Jupyter Notebook</strong> 
-</li>
+<p><strong>Example:</strong> You can replace <code>p_my_env</code> with any environment name of your choice.</p> 
+<ul> 
+<li> <strong>Install Required Libraries:</strong> 
+Activate the virtual environment and install the necessary Python libraries: </li>
+ </ul>
+
+```bash
+pip install pandas sqlalchemy psycopg2
+```
+<strong>Note:</strong> 
+<ul> 
+<li>Before installing any libraries, make sure the virtual environment (<code>p_my_env</code>) is activated.</li> 
+<li>In most cases, the environment activates automatically when selected in your IDE. If not, activate it manually.</li> <li>All required libraries should be installed inside the virtual environment.</li> 
 </ul>
+1.Go to Scripts folder .
+2. open folder 
+3.see activate file 
+4. Right click on the file and Copy Relative Path
+5. paste in the terminal.
+<strong>
+Note:
+</strong>
+1.If you use PowerShell , then use like this:
+
+```bash
+p_my_env\Scripts\activate
+
+```
+2. If you use bash, then use like this:
+
+```bash
+source p_my_env/Scripts/activate
+```
+
