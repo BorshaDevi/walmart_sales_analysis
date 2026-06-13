@@ -108,6 +108,7 @@ source p_my_env/Scripts/activate
 
 <h2>Project Structure</h2>
 
+```
 Walmart_sales_Data_Analysis/
 │
 ├── project.ipynb
@@ -130,3 +131,5 @@ Walmart_sales_Data_Analysis/
 │
 └── walmart.sql
     → SQL queries for business insights
+
+```    
