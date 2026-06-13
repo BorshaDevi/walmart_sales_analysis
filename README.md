@@ -106,18 +106,18 @@ source p_my_env/Scripts/activate
 
 <h2>Getting Started</h2>
 <ul>
-<li>1.Clone the repository:<li>
+<li>1.Clone the repository:</li>
 
 ```bash
 git clone https://github.com/BorshaDevi/walmart_sales_analysis
 ```
-<li>2.Install Python libraries:<li>
+<li>2.Install Python libraries:</li>
 
  ```bash
  pip install -r requirements.txt
  ```
 
-<li>3.Set up your Kaggle API, download the data, and follow the steps to load and analyze.<li>
+<li>3.Set up your Kaggle API, download the data, and follow the steps to load and analyze.</li>
 </ul>
 
 <h2>Project Structure</h2>
