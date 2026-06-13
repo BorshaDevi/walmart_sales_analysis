@@ -140,3 +140,10 @@ Possible extensions to this project:
         <li>Integration with a dashboard tool (e.g., Power BI) for interactive visualization.</li>
         <li>Additional data sources to enhance analysis depth.</li>
      </ul>
+
+<hr></hr> 
+<h2>Acknowledgments</h2>
+<ul> 
+   <li><strong>Data Source:</strong>Kaggle’s Walmart Sales Dataset</li>
+   <li><strong>Inspiration:</strong>Walmart’s business case studies on sales </li>
+</ul>   
