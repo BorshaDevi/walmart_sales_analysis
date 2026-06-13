@@ -71,10 +71,10 @@ pip install pandas sqlalchemy psycopg2 ipykernel
 <li>4. Right click on the file and Copy Relative Path </li>
 <li>5. paste in the terminal. </li>
 </ul>
-<ul>
 <strong>
 Note:
 </strong>
+<ul>
 
 <li>1.If you use PowerShell , then use like this:</li>
 
