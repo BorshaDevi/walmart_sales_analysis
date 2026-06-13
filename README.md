@@ -41,8 +41,9 @@ This project focuses on the data analysis of Walmart sales data. It involves dat
 <h4>Install Required Libraries</h4>
 <ul>
 <li><strong>Libraries:</strong> Install necessary Python libraries:
+</li>
+</ul>
+
 ```bash
 pip install pandas sqlalchemy psycopg2
 ```
-</li>
-</ul>
