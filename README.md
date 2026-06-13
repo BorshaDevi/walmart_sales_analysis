@@ -57,7 +57,7 @@ Activate the virtual environment and install the necessary Python libraries: </l
  </ul>
 
 ```bash
-pip install pandas sqlalchemy psycopg2 ipykernel
+pip install pandas sqlalchemy psycopg2 python-dotenv ipykernel
 ```
 <strong>Note:</strong> 
 <ul> 
@@ -105,6 +105,20 @@ source p_my_env/Scripts/activate
 </ul>
 
 <h2>Getting Started</h2>
+<ul>
+<li>1.Clone the repository:<li>
+
+```bash
+git clone https://github.com/BorshaDevi/walmart_sales_analysis
+```
+<li>2.Install Python libraries:<li>
+
+ ```bash
+ pip install -r requirements.txt
+ ```
+
+<li>3.Set up your Kaggle API, download the data, and follow the steps to load and analyze.<li>
+</ul>
 
 <h2>Project Structure</h2>
 
