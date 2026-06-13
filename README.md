@@ -37,3 +37,12 @@ This project focuses on the data analysis of Walmart sales data. It involves dat
 <li><strong>Dataset Link:<a href='https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets'>Walmart Sales Dataset</a></strong></li>
 <li><strong>Storage:</strong>Save the extracted dataset inside the <code>data/</code> folder for easy access and analysis.</li>
 </ul>
+
+<h4>Install Required Libraries</h4>
+<ul>
+<li><strong>Libraries:</strong> Install necessary Python libraries:
+```bash
+pip install pandas sqlalchemy psycopg2
+```
+</li>
+</ul>
