@@ -92,6 +92,11 @@ source p_my_env/Scripts/activate
 
 <hr></hr>
 
+<h2>Data Cleaning & Business Problem Solving using SQL</h2>
+
+
+
+<hr></hr>
 <h2>Requirements</h2>
 <ul>
 <li><strong>Python 3.10+</strong></li>
