@@ -94,8 +94,8 @@ source p_my_env/Scripts/activate
 
 <h2>Requirements</h2>
 <ul>
-<li><strong>Python Python 3.10+</strong></li>
-<li><strong>SQL Databases: </strong>PostgreSQL</li>
+<li><strong>Python 3.10+</strong></li>
+<li><strong>SQL Databases: </strong>PostgreSQL (pgAdmin4)</li>
 <li><strong>Python Libraries : </strong>
      <ul>
         <li>pandas, sqlalchemy, psycopg2</li>
