@@ -93,7 +93,14 @@ source p_my_env/Scripts/activate
 <hr></hr>
 
 <h2>Data Cleaning & Business Problem Solving using SQL</h2>
-
+<h3>1. Explore the Data</h3>
+<ul>
+    <li><strong>Load Data -</strong> Load the dataset into Pandas using <code>pd.read_csv()</code>.</li>
+    
+    <li><strong>Explore Data -</strong> Understand the dataset structure, check column names, data types, and identify potential issues (missing values, duplicates, inconsistencies).</li>
+    
+    <li><strong>Analyze Data -</strong> Use functions like <code>.info()</code>, <code>.describe()</code>, and <code>.head()</code> to get a quick overview of the dataset.</li>
+</ul>
 
 
 <hr></hr>
