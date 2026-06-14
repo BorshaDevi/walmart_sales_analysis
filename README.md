@@ -134,10 +134,9 @@ source p_my_env/Scripts/activate
   <li><strong>Standardize Text Data -</strong>
     <ul>
         <li>Converted text columns into lowercase using <code>datafile.columns=datafile.columns.str.lower()</code> to maintain consistency in categorical values.</li>
-        <li>This helps to avoid duplication caused by different text formats (e.g., "Food" vs "food").</li>
+        <li>This helps to avoid duplication caused by different text formats (e.g., "Branch" vs "branch").</li>
     </ul>
 </li>
-  <li><strong></strong></li>
 </ul>
 
 <hr></hr>
