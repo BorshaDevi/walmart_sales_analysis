@@ -108,10 +108,15 @@ source p_my_env/Scripts/activate
   <li><strong>Remove Duplicates -</strong>
         <ul>
         <li>Identify the duplicate value using <code>pandas.duplicated().sum()</code> function.</li>
-        <li>Then remove the duplicate value using <code>pandas.drop_duplicates(inplace=True)</code> function.</li>
+        <li>Then remove the duplicate rows using <code>pandas.drop_duplicates(inplace=True)</code> function.</li>
         </ul>
   </li>
-  <li><strong>Handle Missing Values -</strong></li>
+  <li><strong>Handle Missing Values -</strong>
+        <ul>
+        <li>Check the missing values using <code>pandas.isnull().sum()</code> function to identify null value each column.</li>
+        <li>Handle missing values using <code>pandas..dropna(inplace=True)</code> function.</li>
+        </ul>
+  </li>
   <li><strong></strong></li>
 </ul>
 
