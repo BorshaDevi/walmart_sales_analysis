@@ -107,16 +107,31 @@ source p_my_env/Scripts/activate
 <ul>
   <li><strong>Remove Duplicates -</strong>
         <ul>
-        <li>Identify the duplicate value using <code>pandas.duplicated().sum()</code> function.</li>
-        <li>Then remove the duplicate rows using <code>pandas.drop_duplicates(inplace=True)</code> function.</li>
+        <li>Identify the duplicate value using <code>datafile.duplicated().sum()</code> function.</li>
+        <li>Then remove the duplicate rows using <code>datafile.drop_duplicates(inplace=True)</code> function.</li>
         </ul>
   </li>
   <li><strong>Handle Missing Values -</strong>
         <ul>
-        <li>Check the missing values using <code>pandas.isnull().sum()</code> function to identify null value each column.</li>
-        <li>Handle missing values using <code>pandas..dropna(inplace=True)</code> function.</li>
+        <li>Check the missing values using <code>datafile.isnull().sum()</code> function to identify null value each column.</li>
+        <li>Handle missing values using <code>datafile.dropna(inplace=True)</code> function.</li>
         </ul>
   </li>
+
+ <li><strong>Fix Data Type -</strong>
+
+<ul>
+<li>In this case, the <code>unit_price</code> column is stored as a string, but it should be numeric (float or int) for analysis.</li>
+        
+<li>The column also contains a '$' symbol, which prevents it from being converted into a numeric type (especially in SQL or pandas analysis).</li>
+        
+<li>First, remove the '$' symbol and then convert the data type from string to float using:
+            <code>datafile['unit_price'] =datafile['unit_price'].str.replace('$', '').astype(float)</code>
+</li>
+</ul>
+</li>
+
+  <li><strong></strong></li>
   <li><strong></strong></li>
 </ul>
 
