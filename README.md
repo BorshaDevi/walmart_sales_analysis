@@ -93,6 +93,7 @@ source p_my_env/Scripts/activate
 <hr></hr>
 
 <h2>Data Cleaning & Business Problem Solving using SQL</h2>
+
 <h3>1. Explore the Data</h3>
 <ul>
   <li><strong>Load Data -</strong> Load the dataset into Pandas using <code>pandas.read_csv()</code>.</li>
@@ -102,6 +103,17 @@ source p_my_env/Scripts/activate
   <li> <strong>Analyze Data -</strong> Use functions like <code>.info()</code>, <code>.describe()</code>, and <code>.head()</code> to get a quick overview of the dataset.</li>
 </ul>
 
+<h3>2. Data Cleaning</h3>
+<ul>
+  <li><strong>Remove Duplicates -</strong>
+        <ul>
+        <li>Identify the duplicate value using <code>pandas.duplicated().sum()</code> function.</li>
+        <li>Then remove the duplicate value using <code>pandas.drop_duplicates(inplace=True)</code> function.</li>
+        </ul>
+  </li>
+  <li><strong>Handle Missing Values -</strong></li>
+  <li><strong></strong></li>
+</ul>
 
 <hr></hr>
 <h2>Requirements</h2>
