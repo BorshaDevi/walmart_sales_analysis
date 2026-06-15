@@ -153,7 +153,7 @@ Must be create <code>engine</code>.This is generate with postgreSQL.
 </li>
 </ul>
 
-<h3>SQL Analysis: Complex Queries and Business Problem Solving</h3>
+<h3>5. SQL Analysis: Complex Queries and Business Problem Solving</h3>
 
 
 <h4>Pro-1: Find different payment method and number of transaction, number of quantity sold.
