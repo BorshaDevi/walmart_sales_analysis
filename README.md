@@ -139,6 +139,12 @@ source p_my_env/Scripts/activate
 </li>
 </ul>
 
+<h3>3. Feature Engineering</h3>
+<ul>
+<li><strong>Create a New Column -</strong>Calculate the <code>total amount</code> for each transaction by multiplying <code>unit price</code> by <code>quantity</code> and adding this as a new column. </li>
+</ul>
+
+
 <hr></hr>
 <h2>Requirements</h2>
 <ul>
@@ -165,7 +171,7 @@ git clone https://github.com/BorshaDevi/walmart_sales_analysis
  pip install -r requirements.txt
  ```
 
-<li>3.Set up your Kaggle API, download the data, and follow the steps to load and analyze.</li>
+<li>3.Set up your Kaggle API Token, download the data, and follow the steps to load and analyze.</li>
 </ul>
 
 <h2>Project Structure</h2>
