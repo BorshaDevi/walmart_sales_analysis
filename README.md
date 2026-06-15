@@ -317,7 +317,7 @@ Must be create <code>engine</code>.This is generate with postgreSQL.
   </li>
 </ul>
 </h4>
-
+<h3>Note:</h3>Detail SQL query in this file <strong> walmart.sql </strong>
 <hr></hr>
 <h2>Requirements</h2>
 <ul>
