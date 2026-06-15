@@ -141,9 +141,17 @@ source p_my_env/Scripts/activate
 
 <h3>3. Feature Engineering</h3>
 <ul>
-<li><strong>Create a New Column -</strong>Calculate the <code>total amount</code> for each transaction by multiplying <code>unit price</code> by <code>quantity</code> and adding this as a new column. </li>
+<li><strong>Create a New Column -</strong>Calculate the <code>total amount</code> for each transaction by multiplying <code>unit price</code> by <code>quantity</code> and adding this as a new column. <code>datafile['total']=datafile['unit_price'] * datafile['quantity']</code> </li>
 </ul>
 
+<h3>Load Data into PostgreSQL</h3>
+<ul>
+<li><strong>Set Up Connections -</strong>Connect to PostgreSQL using python library <code>sqlalchemy</code> and load the cleaning data into each database.</li>
+<li><strong>Table Creation -</strong>Set up tables in PostgreSQL using <code>sqlalchemy</code> to automate table creation and data insertion. </li>
+<li><strong>Code -</strong><code>datafile.to_sql('walmart',con=engine,if_exists='append',index=False)</code>
+Must be create <code>engine</code>.This is connect with postgreSQL.
+</li>
+</ul>
 
 <hr></hr>
 <h2>Requirements</h2>
