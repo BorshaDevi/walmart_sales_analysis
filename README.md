@@ -154,9 +154,24 @@ Must be create <code>engine</code>.This is generate with postgreSQL.
 </ul>
 
 <h3>SQL Analysis: Complex Queries and Business Problem Solving</h3>
+
+
 <h4>Pro-1: Find different payment method and number of transaction, number of quantity sold.
-<strong>Analysis:</strong>
-<strong>Business Impact:</strong>
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Calculated total transactions and quantity sold for each payment method.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps understand customer payment preferences.</li>
+          <li>Supports decisions on payment infrastructure and promotional offers for preferred payment methods.</li>
+        </ul>
+  </li>
+</ul>
 </h4>
 
 <hr></hr>
