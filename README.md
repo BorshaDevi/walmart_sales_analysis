@@ -174,6 +174,150 @@ Must be create <code>engine</code>.This is generate with postgreSQL.
 </ul>
 </h4>
 
+<h4>Pro-2: Identify the highest-rated category in each branch, displaying the branch, category and AVG rating.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Ranked categories based on average customer ratings within each branch.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps identify the best-performing product categories in each branch.</li>
+          <li>Supports inventory planning and category-specific marketing strategies.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-3: Identify the busiest day for each branch based on the number of transactions.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Determined the day with the highest transaction volume in each branch.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps optimize staff scheduling and resource allocation during peak business days.</li>
+          <li>Improves customer service and operational efficiency.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-4: Calculate the total quantity of items sold per payment method. List payment_method and total_quantity.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Aggregated total quantity sold by payment method.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Reveals purchasing behavior associated with different payment options.</li>
+          <li>Helps evaluate payment channel effectiveness.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-5: Determine the average, minimum, and maximum rating of category for each city. List the city, average_rating, min_rating, and max_rating.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Measured customer satisfaction across cities and product categories.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Measures customer satisfaction across cities and categories.</li>
+          <li>Helps identify areas where product quality or customer experience can be improved..</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-6: Calculate the total profit for each category by considering total_profit as (unit_price × quantity × profit_margin). List category and total_profit, ordered from highest to lowest profit.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Calculated and ranked category-wise profit.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Identifies the most profitable product categories.</li>
+          <li>Supports strategic decisions on inventory investment and product promotion.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-7: Determine the most common payment method for each Branch. Display Branch and the preferred_payment_method.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Identified the most frequently used payment method in each branch.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps branches optimize payment processing systems.</li>
+          <li>Enables branch-specific payment campaigns and customer incentives.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-8: Categorize sales into 3 group MORNING, AFTERNOON, EVENING. Find out each of the shift and number of invoices.
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Categorized transactions by time of day and measured invoice volume.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps identify peak sales periods.</li>
+          <li>Supports workforce planning, inventory management, and promotional timing.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
+<h4>Pro-9: Identify 5 branch with highest decrease ratio in revenue compare to last year (current year 2023 and last year 2022).
+<ul>
+  <li>
+      <strong>Analysis:</strong>
+        <ul>
+          <li>Compared yearly revenue and calculated decline percentages.</li>
+        </ul>
+  </li>
+  <li>
+      <strong>Business Impact:</strong>
+        <ul>
+          <li>Helps management identify underperforming branches.</li>
+          <li>Supports investigation into revenue decline and development of corrective business strategies.</li>
+        </ul>
+  </li>
+</ul>
+</h4>
+
 <hr></hr>
 <h2>Requirements</h2>
 <ul>
