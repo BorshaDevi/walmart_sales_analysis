@@ -299,7 +299,6 @@ Must be create <code>engine</code>.This is generate with postgreSQL.
   </li>
 </ul>
 </h4>
-![Shift Analysis]()
 
 <h4>Pro-9: Identify 5 branch with highest decrease ratio in revenue compare to last year (current year 2023 and last year 2022).
 <ul>
